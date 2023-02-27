@@ -1,0 +1,17 @@
+[package]
+name = "derivator"
+version = "0.1.0"
+edition = "2021"
+authors = [
+  "Bjorn Ove Hay Andersen <bjrnove@gmail.com>",
+]
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+derivator-derive = { path = "derive" }
+
+[workspace]
+members = [
+  "derive",
+  "utils",
+]

@@ -1,0 +1,14 @@
+[package]
+name = "derivator-derive"
+version = "0.1.0"
+edition = "2021"
+authors = [
+  "Bjorn Ove Hay Andersen <bjrnove@gmail.com>",
+]
+license = "MIT OR Apache-2.0"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+derivator-utils = { path = "../utils" }
